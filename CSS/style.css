@@ -1,0 +1,10 @@
+.text-color {
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.border {
+    width: fit-content;
+    padding: 0 1vw;
+    border-radius: 5px;
+}
