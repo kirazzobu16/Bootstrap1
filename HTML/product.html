@@ -7,11 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <body class="bg-light">
+    <body style="background-color:#E9ECEF">
+        <!-- Nav eklendi -->
         <nav class="navbar bg-secondary mb-5">
           <ul class="nav ">
             <h1 class="navbar-brand mb-0 text-danger">Oyun Dükkanım</h1>
@@ -26,9 +28,57 @@
             </li>
           </ul>
         </nav>
+        <!-- Oyunların listesi kısmı -->
+        <section class="container">
+            <h1 class="text-sm-center text-warning">Oyunlarımız</h1>
+            <article class="row">
+                <!-- 1.kart -->
+                <div class="card col-sm-4">
+                    <img src="../image/AcOdysseyPS4.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-color">AC ODYSSEY</p>
+                    </div>
+                    <p class="bg-dark text-white border">300₺</p>
+                </div>
+                <!-- 2.kart -->
+                <div class="card col-sm-4">
+                    <img src="../image/EldenRingps4.webp " class="card-img-top" style="height:58vh" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-color">ELDEN RİNG</p>
+                    </div>
+                    <p class="bg-dark text-white border">900₺</p>
+                </div>
+                <!-- 3.kart -->
+                <div class="card col-sm-4">
+                    <img src="../image/God of war.jpg" class="card-img-top" style="height: 58vh;" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-color">GOD OF WAR</p>
+                    </div>
+                    <p class="bg-dark text-white border">200₺</p>
+                </div>
+                <!-- 4.kart -->
+                <div class="card col-sm-4">
+                    <img src="../image/TheLastofUs.jpg" class="card-img-top" style="height: 58vh;" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-color">THE LAST OF US: PART 2</p>
+                      </div>
+                      <p class="bg-dark text-white border">300₺</p>
+                </div>
+                <!-- 5.kart -->
+                <div class="card col-sm-4">
+                    <img src="../image/readRedRedempiton.jpg" class="card-img-top" style="height: 58vh;" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-color">RED DEAD REDEMPTİON</p>
+                      </div>
+                      <p class="bg-dark text-white border">300₺</p>
+                </div>
+
+                
+            </article>
+        </section>
     
 
-    <!-- Optional JavaScript; choose one of the two! -->
+   <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
